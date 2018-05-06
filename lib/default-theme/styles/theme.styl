@@ -14,9 +14,12 @@ body
   -moz-osx-font-smoothing grayscale
   font-size 16px
   color $textColor
+  direction rtl
 
 .page
-  padding-left $sidebarWidth
+  padding-right $sidebarWidth
+  text-align right
+  direction rtl
 
 .navbar
   position fixed
@@ -46,11 +49,12 @@ body
   z-index 10
   margin 0
   top $navbarHeight
-  left 0
+  right 0
   bottom 0
   box-sizing border-box
   border-right 1px solid $borderColor
   overflow-y auto
+  direction rtl
 
 .content:not(.custom)
   max-width $contentWidth
@@ -128,9 +132,9 @@ h3
 
 a.header-anchor
   font-size 0.85em
-  float left
-  margin-left -0.87em
-  padding-right 0.23em
+  float right
+  margin-right -0.87em
+  padding-left 0.23em
   margin-top 0.125em
   opacity 0
   &:hover

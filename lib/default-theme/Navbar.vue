@@ -60,7 +60,7 @@ export default {
   .links
     font-size 0.9rem
     position absolute
-    right 1.5rem
+    left 1.5rem
     top 0.7rem
 
 @media (max-width: $MQMobile)

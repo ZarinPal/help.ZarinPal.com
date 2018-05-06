@@ -6,10 +6,10 @@ module.exports = {
       title: 'VuePress',
       description: 'Vue-powered Static Site Generator'
     },
-    '/zh/': {
-      lang: 'zh-CN',
-      title: 'VuePress',
-      description: 'Vue 驱动的静态网站生成器'
+    '/fa/': {
+      lang: 'fa-IR',
+      title: 'راهنمای زرین‌پال',
+      description: 'راهنمای زرین‌پال'
     }
   },
   head: [
@@ -52,26 +52,26 @@ module.exports = {
           '/guide/': genSidebarConfig('Guide')
         }
       },
-      '/zh/': {
-        label: '简体中文',
-        selectText: '选择语言',
-        editLinkText: '在 GitHub 上编辑此页',
+      '/fa/': {
+        label: 'فارسی',
+        selectText: 'فارسی',
+        editLinkText: 'اصلاح در گیت‌هاب',
         nav: [
           {
-            text: '指南',
-            link: '/zh/guide/',
+            text: 'راهنمایی',
+            link: '/fa/guide/',
           },
           {
-            text: '配置',
-            link: '/zh/config/'
+            text: 'تنظیمات',
+            link: '/fa/config/'
           },
           {
-            text: '默认主题',
-            link: '/zh/default-theme-config/'
+            text: 'تنظیمات قالب',
+            link: '/fa/default-theme-config/'
           }
         ],
         sidebar: {
-          '/zh/guide/': genSidebarConfig('指南')
+          '/fa/guide/': genSidebarConfig('راهنمایی')
         }
       }
     }
