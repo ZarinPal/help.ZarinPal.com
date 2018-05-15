@@ -11,7 +11,7 @@
       </p>
     </div>
     <div class="features" v-if="data.features && data.features.length">
-      <router-link tag="div" :to="feature.uri" class="feature" v-for="(feature, index) in data.features" :key="index"> {{feature}}
+      <router-link tag="div" :to="feature.uri" class="feature" v-for="(feature, index) in data.features" :key="index">
         <img :src="feature.img" class="center">
         <center><h2>{{ feature.title }}</h2></center>
         <p>{{ feature.details }}</p>

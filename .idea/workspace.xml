@@ -2,8 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16f448f4-4c54-4afd-843c-91ab33a553e9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/art/fonts/eot/IRANSansWeb.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/eot/IRANSansWeb_Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/eot/IRANSansWeb_Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/eot/IRANSansWeb_Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/eot/IRANSansWeb_Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/eot/IRANSansWeb_UltraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/ttf/IRANSansWeb.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/ttf/IRANSansWeb_Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/ttf/IRANSansWeb_Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/ttf/IRANSansWeb_Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/ttf/IRANSansWeb_Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/ttf/IRANSansWeb_UltraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff/IRANSansWeb.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff/IRANSansWeb_Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff/IRANSansWeb_Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff/IRANSansWeb_Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff/IRANSansWeb_Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff/IRANSansWeb_UltraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff2/IRANSansWeb.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff2/IRANSansWeb_Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff2/IRANSansWeb_Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff2/IRANSansWeb_Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff2/IRANSansWeb_Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/art/fonts/woff2/IRANSansWeb_UltraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/coupon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/easypay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/feature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/home/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/home/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/home/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/home/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/home/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/home/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/home/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/ticket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/user/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/user/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/user/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/webservice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/webservice/01.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/card/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/coupon/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/easypay/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/feature/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/home/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ticket/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/user/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/docs/webservice/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/default-theme/styles/rtl.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
@@ -94,11 +143,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="10" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/default-theme/Home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -182,7 +240,6 @@
         <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/lib/default-theme/styles/mobile.styl" />
         <option value="$PROJECT_DIR$/lib/default-theme/SearchBox.vue" />
-        <option value="$PROJECT_DIR$/lib/default-theme/Home.vue" />
         <option value="$PROJECT_DIR$/docs/config/README.md" />
         <option value="$PROJECT_DIR$/docs/README.md" />
         <option value="$PROJECT_DIR$/lib/default-theme/styles/theme.styl" />
@@ -197,6 +254,7 @@
         <option value="$PROJECT_DIR$/docs/user/README.md" />
         <option value="$PROJECT_DIR$/docs/home/README.md" />
         <option value="$PROJECT_DIR$/docs/webservice/README.md" />
+        <option value="$PROJECT_DIR$/lib/default-theme/Home.vue" />
       </list>
     </option>
   </component>
@@ -235,7 +293,13 @@
             <path>
               <item name="vuepress" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuepress" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vuepress" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuepress" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="default-theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,15 +356,16 @@
       <workItem from="1526106117093" duration="3870000" />
       <workItem from="1526192631623" duration="4660000" />
       <workItem from="1526276265674" duration="877000" />
-      <workItem from="1526363446105" duration="2761000" />
+      <workItem from="1526363446105" duration="3385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63548000" />
+    <option name="totallyTimeSpent" value="64172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -457,13 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/default-theme/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-246">
-          <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -649,6 +707,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/default-theme/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
