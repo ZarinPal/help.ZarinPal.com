@@ -57,10 +57,12 @@ export default {
     font-weight 600
     color $textColor
     position relative
+    content url(/logo2.png)
+    height 2rem
   .links
     font-size 0.9rem
     position absolute
-    left 1.5rem
+    right 1.5rem
     top 0.7rem
 
 @media (max-width: $MQMobile)

@@ -3,23 +3,69 @@
 @require './code'
 @require './custom-blocks'
 @require './arrow'
+@require './rtl'
 
 html, body
   padding 0
   margin 0
 
+@font-face
+  font-family IRANSans
+  font-style normal
+  font-weight 900
+  src url('../../../art/fonts/eot/IRANSansWeb_Black.eot')
+  src url('../../../art/fonts/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../../art/fonts/woff2/IRANSansWeb_Black.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../../art/fonts/woff/IRANSansWeb_Black.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../art/fonts/ttf/IRANSansWeb_Black.ttf') format('truetype')
+
+@font-face
+  font-family IRANSans
+  font-style normal
+  font-weight bold
+  src: url('../../../art/fonts/eot/IRANSansWeb_Bold.eot')
+  src: url('../../../art/fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../../art/fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../../art/fonts/woff/IRANSansWeb_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../art/fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype')
+
+
+@font-face
+  font-family IRANSans
+  font-style normal
+  font-weight 500
+  src url('../../../art/fonts/eot/IRANSansWeb_Medium.eot')
+  src url('../../../art/fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../../art/fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../../art/fonts/woff/IRANSansWeb_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../art/fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype')
+
+
+@font-face
+  font-family IRANSans
+  font-style normal
+  font-weight 300
+  src url('../../../art/fonts/eot/IRANSansWeb_Light.eot')
+  src url('../../../art/fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../../art/fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../../art/fonts/woff/IRANSansWeb_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../art/fonts/ttf/IRANSansWeb_Light.ttf') format('truetype')
+
+
+@font-face
+  font-family IRANSans
+  font-style normal
+  font-weight 200
+  src url('../../../art/fonts/eot/IRANSansWeb_UltraLight.eot')
+  src url('../../../art/fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../../art/fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../../art/fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../art/fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype')
+
+
+@font-face
+  font-family IRANSans
+  font-style normal
+  font-weight normal
+  src url('../../../art/fonts/eot/IRANSansWeb.eot')
+  src url('../../../art/fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../../../art/fonts/woff2/IRANSansWeb.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../../../art/fonts/woff/IRANSansWeb.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../../../art/fonts/ttf/IRANSansWeb.ttf') format('truetype')
+
+
 body
-  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+  font-family IRANSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   font-size 16px
   color $textColor
-  direction rtl
 
 .page
-  padding-right $sidebarWidth
-  text-align right
-  direction rtl
+  padding-left $sidebarWidth
+
 
 .navbar
   position fixed
@@ -49,12 +95,11 @@ body
   z-index 10
   margin 0
   top $navbarHeight
-  right 0
+  left 0
   bottom 0
   box-sizing border-box
   border-right 1px solid $borderColor
   overflow-y auto
-  direction rtl
 
 .content:not(.custom)
   max-width $contentWidth
@@ -70,6 +115,7 @@ body
     border-radius 4px
   img
     max-width 100%
+    vertical-align middle
 
 .content.custom
   padding 0
@@ -108,12 +154,12 @@ h1, h2, h3, h4, h5, h6
   font-weight 600
   line-height 1.25
   .content:not(.custom) > &
-    margin-top (0.5rem - $navbarHeight)
-    padding-top ($navbarHeight + 1rem)
+    margin-top 2rem
+    padding-top 4rem
     margin-bottom 0
     &:first-child
-      margin-top -1.5rem
-      margin-bottom 1rem
+      margin-top 0rem
+      margin-bottom -1rem
       + p, + pre, + .custom-block
         margin-top 2rem
   &:hover .header-anchor
@@ -124,7 +170,7 @@ h1
 
 h2
   font-size 1.65rem
-  padding-bottom .3rem
+  padding-bottom 1rem
   border-bottom 1px solid $borderColor
 
 h3
@@ -132,9 +178,9 @@ h3
 
 a.header-anchor
   font-size 0.85em
-  float right
-  margin-right -0.87em
-  padding-left 0.23em
+  float left
+  margin-left -0.87em
+  padding-right 0.23em
   margin-top 0.125em
   opacity 0
   &:hover
@@ -172,14 +218,13 @@ th, td
       display: block
   &.no-navbar
     .content:not(.custom) >
-      h1, h2, h3, h4, h5, h6
-        margin-top 1.5rem
-        padding-top 0
+    h1, h2, h3, h4, h5, h6
+      margin-top 1.5rem
+      padding-top 0
     .sidebar
       top 0
     .custom-layout
       padding-top 0
-
 
 @media (min-width: ($MQMobile + 1px))
   .theme-container.no-sidebar
@@ -189,3 +234,9 @@ th, td
       padding-left 0
 
 @require './mobile.styl'
+
+.center
+  display block
+  margin-left auto
+  margin-right auto
+  width 50%

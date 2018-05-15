@@ -1,34 +1,46 @@
 ---
 home: true
-heroImage: /hero.png
-actionText: Get Started →
-actionLink: /guide/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: پیشخوان
+  img: /home.png
+  uri: /home/
+  details: 
+- title: درگاه‌های پرداخت
+  img: /webservice.png
+  uri: /webservice/
+  details: 
+- title: کارت‌ها
+  img: /card.png
+  uri: /card/
+  details: 
+- title: زرین لینک
+  img: /easypay.png
+  uri: /easypay/
+  details: 
+- title: کد تخفیف
+  img: /coupon.png
+  uri: /coupon/
+  details: 
+- title: تیکت‌ها
+  img: /ticket.png
+  uri: /ticket/
+  details: 
+- title: حساب کاربری
+  img: /user.png
+  uri: /user/
+  details: 
+- title: ویژگی‌ها
+  img: /feature.png
+  uri: /feature/
+  details:     
+footer: © صاحب امتیاز تمامی حقوق وب‌سایت، زرین‌پال می باشد. ۱۳۹۷-۱۳۸۹
 ---
 
-### As Easy as 1, 2, 3
+---
+**ما برای سوال شما جواب مناسبی نداشتیم؟**
 
-``` bash
-# install
-yarn global add vuepress # OR npm install -g vuepress
+اگر جواب سوال خود را در بین راهنمایی‌های اینجا پیدا نکردید، نگران نباشید!
 
-# create a markdown file
-echo '# Hello VuePress' > README.md
-
-# start writing
-vuepress dev
-
-# build to static files
-vuepress build
-```
-
-::: warning COMPATIBILITY NOTE
-VuePress requires Node.js >= 8.
-:::
+شما می‌توانید از طریق صفحه 
+[تماس با ما](https://www.zarinpal.com/contact.html) 
+زرین‌پال تیکت ارسال کنید یا با تماس تلفنی از راهنمایی پشتیبانان زرین‌پال جواب خودتان را دریافت کنید.

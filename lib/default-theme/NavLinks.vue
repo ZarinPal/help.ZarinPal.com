@@ -74,7 +74,7 @@ export default {
       if (repo) {
         return /^https?:/.test(repo)
           ? repo
-          : `https://github.com/${repo}`
+          : `https://zarinpal.com/${repo}`
       }
     },
     repoLabel () {
@@ -92,7 +92,7 @@ export default {
         }
       }
 
-      return 'Source'
+      return 'زرین‌پال'
     }
   }
 }

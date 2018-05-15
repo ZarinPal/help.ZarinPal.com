@@ -11,10 +11,11 @@
       </p>
     </div>
     <div class="features" v-if="data.features && data.features.length">
-      <div class="feature" v-for="feature in data.features">
-        <h2>{{ feature.title }}</h2>
+      <router-link tag="div" :to="feature.uri" class="feature" v-for="(feature, index) in data.features" :key="index"> {{feature}}
+        <img :src="feature.img" class="center">
+        <center><h2>{{ feature.title }}</h2></center>
         <p>{{ feature.details }}</p>
-      </div>
+      </router-link>
     </div>
     <Content custom/>
     <div class="footer" v-if="data.footer">
@@ -51,6 +52,7 @@ export default {
   margin 0px auto
   .hero
     text-align center
+    display none
     img
       max-height 280px
       display block
@@ -77,7 +79,7 @@ export default {
       &:hover
         background-color lighten($accentColor, 10%)
   .features
-    border-top 1px solid $borderColor
+    border-top 0px solid $borderColor
     padding 1.2rem 0
     margin-top 2.5rem
     display flex
@@ -88,7 +90,16 @@ export default {
   .feature
     flex-grow 1
     flex-basis 30%
-    max-width 30%
+    max-width 21%
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border 1px solid transparent
+    cursor pointer
+    &:hover
+      background-color #fdfdfd
+      border-radius 14px
+      border 1px solid #f1f1f1
+
     h2
       font-size 1.4rem
       font-weight 500
@@ -102,14 +113,17 @@ export default {
     border-top 1px solid $borderColor
     text-align center
     color lighten($textColor, 25%)
+    font-size 14px
 
 @media (max-width: $MQMobile)
   .home
     .features
-      flex-direction column
+      flex-direction none
     .feature
       max-width 100%
       padding 0 2.5rem
+      padding-bottom 25px
+      padding-top: 25px;
 
 @media (max-width: $MQMobileNarrow)
   .home

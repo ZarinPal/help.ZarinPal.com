@@ -191,27 +191,35 @@ export default {
       width 0
       border-color transparent
       position relative
-      left 1rem
+      right 1rem
       &:focus
         cursor text
         left 0
-        width 10rem
+        width 6rem
 
 @media (max-width: $MQNarrow) and (min-width: $MQMobile)
   .search-box
+    input
+     right 1rem
     .suggestions
       left 0
 
 @media (max-width: $MQMobile)
   .search-box
-    margin-right 0
+    input
+     right 1rem
+     margin-right 0
     .suggestions
       right 0
+  .navbar
+    text-align center
 
 @media (max-width: $MQMobileNarrow)
   .search-box
+    input
+     right 1rem
     .suggestions
       width calc(100vw - 4rem)
     input:focus
-      width 8rem
+      width 20rem
 </style>
