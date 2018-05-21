@@ -28,7 +28,7 @@ module.exports = {
       '/': {
         label: 'فارسی',
         selectText: 'زبان‌ها',
-        editLinkText: 'اصلاح در گیت‌هاب',
+        editLinkText: 'ویرایش و اصلاح متن',
         nav: [
           {
             text: 'آزمایشگاه',

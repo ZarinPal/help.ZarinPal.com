@@ -29,9 +29,9 @@ features:
   img: /user.png
   uri: /user/
   details: 
-- title: ویژگی‌ها
-  img: /feature.png
-  uri: /feature/
+- title: API
+  img: /api.png
+  uri: /api/
   details:     
 footer: © صاحب امتیاز تمامی حقوق وب‌سایت، زرین‌پال می باشد. ۱۳۹۷-۱۳۸۹
 ---
