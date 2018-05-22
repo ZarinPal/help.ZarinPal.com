@@ -195,7 +195,7 @@ export default {
       &:focus
         cursor text
         left 0
-        width 6rem
+        width 10rem
 
 @media (max-width: $MQNarrow) and (min-width: $MQMobile)
   .search-box
@@ -221,5 +221,5 @@ export default {
     .suggestions
       width calc(100vw - 4rem)
     input:focus
-      width 20rem
+      width 12rem
 </style>

@@ -21,7 +21,7 @@ module.exports = {
   serviceWorker: true,
   theme: 'vue',
   themeConfig: {
-    repo: '#',
+    repo: 'ZarinPal/kb.ZarinPal.com',
     editLinks: true,
     docsDir: 'docs',
     locales: {
