@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="16f448f4-4c54-4afd-843c-91ab33a553e9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/api/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/coupon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/coupon/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ticket/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ticket/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/default-theme/SearchBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/lib/default-theme/SearchBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/card/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/card/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/easypay/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/easypay/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/home/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/home/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/user/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/user/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/webservice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/webservice/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,20 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Page.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/default-theme/Page.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="siteData.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/app/.temp/siteData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="460" column="4" selection-start-line="460" selection-start-column="4" selection-end-line="460" selection-end-column="4" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/home/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="160">
+                <caret line="94" selection-start-line="94" selection-end-line="94" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -122,21 +116,21 @@
         <option value="$PROJECT_DIR$/lib/app/dataMixin.js" />
         <option value="$PROJECT_DIR$/lib/default-theme/util.js" />
         <option value="$PROJECT_DIR$/lib/default-theme/styles/custom-blocks.styl" />
-        <option value="$PROJECT_DIR$/docs/user/README.md" />
-        <option value="$PROJECT_DIR$/docs/home/README.md" />
         <option value="$PROJECT_DIR$/lib/default-theme/Home.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/docs/feature/README.md" />
         <option value="$PROJECT_DIR$/docs/README.md" />
-        <option value="$PROJECT_DIR$/docs/webservice/README.md" />
         <option value="$PROJECT_DIR$/lib/app/.temp/siteData.js" />
-        <option value="$PROJECT_DIR$/docs/card/README.md" />
-        <option value="$PROJECT_DIR$/docs/easypay/README.md" />
         <option value="$PROJECT_DIR$/docs/coupon/README.md" />
         <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/docs/ticket/README.md" />
         <option value="$PROJECT_DIR$/docs/api/README.md" />
         <option value="$PROJECT_DIR$/lib/default-theme/SearchBox.vue" />
+        <option value="$PROJECT_DIR$/docs/webservice/README.md" />
+        <option value="$PROJECT_DIR$/docs/card/README.md" />
+        <option value="$PROJECT_DIR$/docs/home/README.md" />
+        <option value="$PROJECT_DIR$/docs/user/README.md" />
+        <option value="$PROJECT_DIR$/docs/easypay/README.md" />
       </list>
     </option>
   </component>
@@ -165,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,18 +175,13 @@
               <item name="vuepress" type="b2602c69:ProjectViewProjectNode" />
               <item name="vuepress" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vuepress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vuepress" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="ticket" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,12 +236,13 @@
       <workItem from="1526450935940" duration="1480000" />
       <workItem from="1526470140003" duration="494000" />
       <workItem from="1526881719125" duration="7603000" />
-      <workItem from="1526966792762" duration="3450000" />
+      <workItem from="1526966792762" duration="3697000" />
+      <workItem from="1527487605182" duration="1468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78065000" />
+    <option name="totallyTimeSpent" value="79780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -265,11 +254,10 @@
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32969698" />
       <window_info id="npm" order="1" sideWeight="0.50083196" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.39030302" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49916804" visible="true" weight="0.28183118" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.39030302" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49916804" visible="true" weight="0.28540772" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32848486" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
@@ -279,6 +267,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32848486" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,16 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/home/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2370">
-            <caret line="158" column="177" selection-start-line="158" selection-start-column="177" selection-end-line="158" selection-end-column="177" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/default-theme/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -516,36 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/user/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="201">
-            <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="65" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/webservice/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/card/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -558,16 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/easypay/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="17" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -622,17 +561,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/default-theme/Page.vue">
+    <entry file="file://$PROJECT_DIR$/lib/app/.temp/siteData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        <state relative-caret-position="426">
+          <caret line="475" column="9" selection-start-line="475" selection-start-column="9" selection-end-line="475" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app/.temp/siteData.js">
+    <entry file="file://$PROJECT_DIR$/lib/default-theme/Page.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="460" column="4" selection-start-line="460" selection-start-column="4" selection-end-line="460" selection-end-column="4" />
+        <state relative-caret-position="15">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/webservice/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="392">
+            <caret line="98" selection-start-line="98" selection-end-line="98" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/card/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="377">
+            <caret line="64" selection-start-line="64" selection-end-line="64" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/easypay/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/user/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="241">
+            <caret line="123" selection-start-line="123" selection-end-line="123" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/home/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="160">
+            <caret line="94" selection-start-line="94" selection-end-line="94" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
