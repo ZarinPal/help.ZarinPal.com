@@ -74,7 +74,7 @@ export default {
       if (repo) {
         return /^https?:/.test(repo)
           ? repo
-          : `https://zarinpal.com/${repo}`
+          : `https://github.com/${repo}`
       }
     },
     repoLabel () {
@@ -84,7 +84,7 @@ export default {
       }
 
       const repoHost = this.repoLink.match(/^https?:\/\/[^/]+/)[0]
-      const platforms = ['GitHub', 'GitLab', 'Bitbucket']
+      const platforms = ['ZarinPal', 'GitLab', 'Bitbucket']
       for (let i = 0; i < platforms.length; i++) {
         const platform = platforms[i]
         if (new RegExp(platform, 'i').test(repoHost)) {
@@ -92,7 +92,7 @@ export default {
         }
       }
 
-      return 'زرین‌پال'
+      return 'گیت‌هاب'
     }
   }
 }
