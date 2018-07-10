@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16f448f4-4c54-4afd-843c-91ab33a553e9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/api/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/user/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/user/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/home/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/home/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +17,7 @@
       <file leaf-file-name="NavLinks.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/default-theme/NavLinks.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="1365">
               <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
             </state>
           </provider>
@@ -28,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/docs/user/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="306">
+              <first_editor relative-caret-position="1770">
                 <caret line="118" column="106" selection-start-line="118" selection-start-column="106" selection-end-line="118" selection-end-column="106" />
               </first_editor>
               <second_editor />
@@ -36,12 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/api/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="135">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                <caret line="9" selection-start-line="9" selection-end-line="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/home/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="141" column="119" selection-start-line="141" selection-start-column="119" selection-end-line="141" selection-end-column="119" />
               </first_editor>
               <second_editor />
             </state>
@@ -170,12 +181,12 @@
         <option value="$PROJECT_DIR$/docs/webservice/README.md" />
         <option value="$PROJECT_DIR$/docs/card/README.md" />
         <option value="$PROJECT_DIR$/docs/easypay/README.md" />
-        <option value="$PROJECT_DIR$/docs/home/README.md" />
         <option value="$PROJECT_DIR$/lib/app/.temp/siteData.js" />
         <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/lib/default-theme/NavLinks.vue" />
         <option value="$PROJECT_DIR$/docs/user/README.md" />
         <option value="$PROJECT_DIR$/docs/api/README.md" />
+        <option value="$PROJECT_DIR$/docs/home/README.md" />
       </list>
     </option>
   </component>
@@ -227,6 +238,12 @@
               <item name="vuepress" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vuepress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vuepress" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,12 +307,13 @@
       <workItem from="1526966792762" duration="3697000" />
       <workItem from="1527487605182" duration="1773000" />
       <workItem from="1527921896480" duration="1602000" />
-      <workItem from="1528789007520" duration="451000" />
+      <workItem from="1528789007520" duration="537000" />
+      <workItem from="1531209925968" duration="201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82138000" />
+    <option name="totallyTimeSpent" value="82425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -307,7 +325,7 @@
       <window_info id="npm" order="1" sideWeight="0.50083196" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.39030302" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49916804" visible="true" weight="0.2932761" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49916804" visible="true" weight="0.29756796" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
@@ -605,16 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/home/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="227">
-            <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -676,7 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/default-theme/NavLinks.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="1365">
           <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
         </state>
       </provider>
@@ -684,7 +692,7 @@
     <entry file="file://$PROJECT_DIR$/docs/user/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
+          <first_editor relative-caret-position="1770">
             <caret line="118" column="106" selection-start-line="118" selection-start-column="106" selection-end-line="118" selection-end-column="106" />
           </first_editor>
           <second_editor />
@@ -695,7 +703,17 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="135">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/home/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="141" column="119" selection-start-line="141" selection-start-column="119" selection-end-line="141" selection-end-column="119" />
           </first_editor>
           <second_editor />
         </state>
