@@ -8,15 +8,12 @@ module.exports = {
     }
   },
   head: [
-    ['link', { rel: 'icon', href: `/logo.png` }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#ffe75a' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
-    ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#ffe75a' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
-    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
+    ['link', { rel: 'icon', href: `https://www.zarinpal.com/icons/favicon.ico` }],
+    ['link', { rel: 'manifest', href: 'https://www.zarinpal.com/icons/site.webmanifest' }],
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
+    ['link', { rel: 'apple-touch-icon', href: `https://www.zarinpal.com/icons/apple-touch-icon.png` }],
+    ['link', { rel: 'mask-icon', href: 'https://www.zarinpal.com/icons/safari-pinned-tab.svg', color: '#ffe75a' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#da532c' }]
   ],
   serviceWorker: true,
   theme: 'vue',
